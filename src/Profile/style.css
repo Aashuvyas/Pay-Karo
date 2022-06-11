@@ -1,0 +1,88 @@
+.profileDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profiles {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: max-content;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #bfbfbf;
+}
+
+.fullnameDiv,
+.dobDiv {
+    display: flex;
+}
+
+.fullname {
+    border: none;
+    padding: 5px;
+}
+
+.dob {
+    border: none;
+}
+
+.dob::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
+
+.dob::-webkit-calendar-picker-indicator:hover {
+    opacity: 1;
+}
+
+.saveDetails {
+    opacity: 0;
+}
+
+.saveDetails:hover {
+    opacity: 1;
+}
+
+.fullname:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+.fullname::placeholder {
+    color: black;
+}
+
+.dob:focus {
+    outline: none;
+    border: 1px solid blue;
+    border-radius: 3px;
+}
+
+.kycUploadDiv {
+    display: flex;
+    align-items: center;
+}
+
+#files {
+    display: none;
+}
+
+.inputLabel {
+    border: 1px solid black;
+    padding: 3px;
+    border-radius: 4px;
+    transition: all 0.5s ease-in-out 0.5ms;
+    background-color: #bfbfbf;
+}
+
+input {
+    background-color: #bfbfbf;
+}
+
+.inputLabel:hover {
+    background-color: beige;
+}

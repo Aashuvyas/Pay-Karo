@@ -1,0 +1,42 @@
+.addMoney {
+    text-decoration: none;
+    color: white;
+}
+
+.walletDiv {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.walletDiv>* {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardAmountDiv {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px,
+        rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.cardDetailsDiv {
+    margin-top: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #BFBFBF;
+}
+
+.addMoney>* {
+    padding-left: 5px;
+    padding-right: 5px;
+}

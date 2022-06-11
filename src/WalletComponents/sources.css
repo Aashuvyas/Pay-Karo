@@ -1,0 +1,48 @@
+.displayDetailsContainer {
+    width: 100%;
+}
+
+.displayContainers {
+    background-color: #BFBFBF;
+}
+
+.sourceContainer {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.sourceContainer::-webkit-scrollbar {
+    display: none;
+}
+
+.sourceContainer>* {
+    min-width: 500px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    flex-wrap: nowrap;
+}
+
+.amountDisplayDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.addMoneyContainer {
+    min-height: 100vh;
+}
+
+.addMoneyDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border-radius: 5px;
+}
+
+.addMoneyDiv>* {
+    margin-bottom: 50px;
+}
